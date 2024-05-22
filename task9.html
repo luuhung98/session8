@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let math=Number(prompt(" Toán "));
+        let physical=Number(prompt(" Lý "));
+        let chemistry=Number(prompt(" Hoá "));
+        let literature=Number(prompt(" Văn "));
+        let history=Number(prompt(" Sử "));
+        let geography=Number(prompt(" Địa "));
+        dtb=(math+physical+chemistry+literature+history+geography)/6;
+        console.log(dtb)
+        if(dtb>=8&&dtb<=10){
+            console.log("Xếp loại giỏi");
+
+        }else if(dtb>=6.5&&dtb<=7.9){
+            console.log("Xếp loại khá");
+        }else if(dtb>=5.0&&dtb<=6.4){
+            console.log("Xếp loại trung bình");
+        }
+        if (dtb<5.0){
+            console.log("Xếp loại yếu");
+        }
+    </script>
+</body>
+</html>
